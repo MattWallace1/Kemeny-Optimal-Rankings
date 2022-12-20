@@ -4,3 +4,4 @@ Implemented:
 2) A method that, from a collection of rankings, finds the largest geometric distance between any two rankings (using Kendall Tau).
 3) Average rank aggregation to find the average ranking among a collection of rankings.
 4) An optimal Kendall Tau that runs in O(N log N) time.
+5) Brute force Kemeny optimal rankings: finds the ranking that minimizes the sum of Kendall Tau distances to all other rankings
